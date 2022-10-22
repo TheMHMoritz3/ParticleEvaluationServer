@@ -1,0 +1,10 @@
+{application,particle_server,
+             [{applications,[kernel,stdlib,elixir,logger,cowboy,plug,poison,
+                             plug_cowboy]},
+              {description,"particle_server"},
+              {modules,['Elixir.ParticleServer',
+                        'Elixir.ParticleServer.Application',
+                        'Elixir.ParticleServer.ParticleServer.Router']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.ParticleServer.Application',[]}}]}.
